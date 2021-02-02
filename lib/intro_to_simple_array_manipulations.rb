@@ -24,7 +24,7 @@ end
 def using_delete_at(famous_robots,deleted_robot)
   using_delete_at.delete_at(deleted_robot)
 end
-using_delete_at(["Johnny 5", "R2D2", "Robocop"],2)
+
 
 
   
