@@ -24,7 +24,7 @@ end
 def using_delete_at(famous_robots,deleted_robot)
   using_delete_at.delete_at(deleted_robot)
 end
-using_delete_at(["Johnny 5", "R2D2", "Robocop"],)
+using_delete_at(["Johnny 5", "R2D2", "Robocop"],2)
 
 describe "using_delete_at" do 
   it "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
